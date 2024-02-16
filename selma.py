@@ -52,7 +52,7 @@ class ObjectDetection():
         return img
 
     def run(self):
-        cap = cv2.VideoCapture("Football match.mp4")
+        cap = cv2.VideoCapture("Tunisia Tunis Airport Tunis 2019  Tunisie Tunis Carthage Aéroport de Tunis Carthage 2019.mp4")
         assert cap.isOpened()
         tracker = DeepSort(max_age=5,
                            n_init=2,
